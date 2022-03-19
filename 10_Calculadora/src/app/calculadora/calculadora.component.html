@@ -1,0 +1,22 @@
+<div class="envoltura">
+  <h1>Calculadora simple</h1>
+  
+  <div class="datos">
+    <label for="numeroA">Numero 1: </label>
+    <input type="text" id="a" [(ngModel)]=a>
+  </div>
+  <div class="datos">
+    <label for="numero2">Numero 2: </label>
+    <input type="text" id="b" [(ngModel)]=b>
+  </div>
+  <div class="resultado"> 
+    <label for="numero2">Resultado: </label>
+    <input type="text" id="resultado" value="{{resultado}}">
+  </div>
+  <div class="botones">
+    <button (click)="sumar()">+</button>
+    <button (click)="restar()">-</button>
+    <button (click)="multiplicar()">x</button>
+    <button (click)="dividir()">/</button>
+  </div>
+</div>

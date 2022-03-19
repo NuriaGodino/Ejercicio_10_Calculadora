@@ -1,0 +1,20 @@
+.envoltura{
+    text-align: center;
+    background-color: #a0e2f2;
+    width: 25%;
+    margin: auto;
+}
+
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    font-size: 20px;
+    margin: 4px 2px;
+    min-width: 71%;
+}
+
+.datos{
+    margin-bottom: 3px;
+}
